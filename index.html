@@ -15,11 +15,11 @@
 <br/><br/>
 Picture Data Extract:
 <br/><br/>
-<img src="img/one.jpg" id="img1" />
+<img src="img/IMG_0184.JPG" id="img1" />
 <br/>
-<img src="img/two.jpg" id="img2" />
+<img src="img/IMG_0207.JPG" id="img2" />
 <br/>
-<img src="img/three.jpg" id="img3" /><br/>
+<img src="img/IMG_0227.JPG" id="img3" /><br/>
 <br/>
 <button id="objecturltest">object test</button><br/>
 <br/>
@@ -68,7 +68,7 @@ document.getElementById("base64test").onclick = function() {
 
 document.getElementById("objecturltest").onclick = function() {
     var http = new XMLHttpRequest();
-    http.open("GET", "img/one.jpg", true);
+    http.open("GET", "img/IMG_0184.JPG", true);
     http.responseType = "blob";
     http.onload = function(e) {
         if (this.status === 200) {
@@ -88,7 +88,7 @@ document.getElementById("objecturltest").onclick = function() {
 
 document.getElementById("blobtest").onclick = function() {
     var http = new XMLHttpRequest();
-    http.open("GET", "img/two.jpg", true);
+    http.open("GET", "img/IMG_0184.JPG", true);
     http.responseType = "blob";
     http.onload = function(e) {
         if (this.status === 200) {
