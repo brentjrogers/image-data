@@ -1,0 +1,34 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: PingFangSC-UltraLight, PingFangSC;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+button {
+  width: 25%;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  background: #1b9af7;
+  border: 1px solid #1b9af7;
+  padding: 5px 18px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: PingFangSC-UltraLight, PingFangSC;
+  font-weight: 400;
+}
+img {
+  width: 50%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
