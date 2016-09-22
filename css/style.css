@@ -32,3 +32,31 @@ img {
   margin-left: 25%;
   margin-right: 25%;
 }
+
+input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+label {
+  width: 25%;
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  background: #00bcd4;
+  border: 1px solid #00bcd4;
+  padding: 3px 12px;
+  color: #fff;
+  border-radius: 50px;
+  font-family: PingFangSC-UltraLight, PingFangSC;
+  font-weight: 400;
+}
+
+label:focus,
+label:hover {
+    background-color: #00bcd4;
+    color: #fff;
+}
