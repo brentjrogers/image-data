@@ -15,8 +15,8 @@
 <input id="file-input" name="" type="file" placeholder="" value=""/>
 <br/><br/>
 Picture Data Extract:
-<br/><br/>
-<img src="http://nameisjessy.name/2.jpg" id="img1" />
+<br/>
+<img src="img/1.jpg" />
 <br/>
 <button id="objecturltest">object test</button><br/>
 <br/>
@@ -65,7 +65,7 @@ document.getElementById("base64test").onclick = function() {
 
 document.getElementById("objecturltest").onclick = function() {
     var http = new XMLHttpRequest();
-    http.open("GET", "http://nameisjessy.name/2.jpg", true);
+    http.open("GET", "img/1.jpg", true);
     http.responseType = "blob";
     http.onload = function(e) {
         if (this.status === 200) {
@@ -85,7 +85,7 @@ document.getElementById("objecturltest").onclick = function() {
 
 document.getElementById("blobtest").onclick = function() {
     var http = new XMLHttpRequest();
-    http.open("GET", "http://nameisjessy.name/2.jpg", true);
+    http.open("GET", "img/1.jpg", true);
     http.responseType = "blob";
     http.onload = function(e) {
         if (this.status === 200) {
