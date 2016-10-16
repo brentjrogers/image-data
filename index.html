@@ -20,7 +20,7 @@
 <button id="image-meta">image meta</button>
 <br/>
 <br/>
-<img src="img/img.jpg" />
+<img src="https://m.facebook.com/photo.php?fbid=102899886441969&id=100001658739676&set=a.102899883108636.3740.100001658739676&source=56" />
 </section>
 
 <script>
@@ -32,7 +32,7 @@ document.getElementById("file-input").onchange = function(e) {
 
 document.getElementById("image-meta").onclick = function() {
     var http = new XMLHttpRequest();
-    http.open("GET", "img/img.jpg", true);
+    http.open("GET", "https://m.facebook.com/photo.php?fbid=102899886441969&id=100001658739676&set=a.102899883108636.3740.100001658739676&source=56", true);
     http.responseType = "blob";
     http.onload = function(e) {
         if (this.status === 200) {
